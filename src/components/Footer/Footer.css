@@ -1,0 +1,63 @@
+/** @format */
+
+.footer-container {
+	background-color: var(--very-dark-violet);
+	color: #fff;
+	padding-bottom: 2rem;
+}
+.footer-sub-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	padding-top: 4rem;
+	/* border: 2px solid red; */
+}
+.logo {
+	fill: #fff;
+}
+
+.features,
+.resources,
+.company {
+	display: flex;
+	flex-direction: column;
+}
+.links ul {
+	padding-left: 0;
+}
+.links ul > li {
+	list-style: none;
+}
+.links b,
+.links li {
+	cursor: pointer;
+	padding: 0.4rem;
+}
+.links li {
+	color: var(--small-text-color);
+}
+.links li:hover {
+	color: var(--btn-background);
+}
+.icon {
+	margin-left: 1rem;
+	cursor: pointer;
+	fill: #fff;
+}
+.icon:hover {
+	fill: var(red);
+}
+
+@media screen and (max-width: 600px) {
+	.footer-sub-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.logo {
+		margin-bottom: 2rem;
+		fill: #fff;
+	}
+}

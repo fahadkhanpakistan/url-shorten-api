@@ -1,0 +1,129 @@
+/** @format */
+
+.statistics-page {
+	background-color: var(--grayish);
+}
+.advanced-statistics-title {
+	text-align: center;
+}
+
+.advanced-statistics-para {
+	text-align: center;
+	width: 35%;
+	margin: auto;
+}
+.chart {
+	width: 80%;
+	margin: 3rem auto;
+	font-size: 14px;
+	overflow-y: visible;
+	display: flex;
+	justify-content: space-between;
+}
+.chart-item {
+	padding: 1rem;
+	border-radius: 5px;
+	width: 300px;
+	background-color: #fff;
+}
+.chart-item img {
+	border-radius: 50px;
+	padding: 1rem;
+	background-color: var(--dark-violet);
+	width: 30px;
+	transform: translateY(-80%);
+}
+.record {
+	transform: translateY(10%);
+}
+.customizable {
+	transform: translateY(20%);
+}
+.link-boost {
+	background-image: url('../images/bg-boost-desktop.svg');
+	margin-top: 10rem;
+	padding: 2rem;
+	background-color: var(--dark-violet);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+/* --------UrlShorten Page ----------- 
+*/
+.url-shorten {
+	width: 80%;
+	margin: auto;
+	background-color: var(--dark-violet);
+	background-image: url('../images/bg-boost-desktop.svg');
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+.url-shorten input {
+	width: 70%;
+	padding: 0.5rem;
+	margin: 2rem;
+}
+.url-shorten button {
+	margin: 2rem;
+	display: block;
+	justify-self: flex-start;
+	padding: 0.5rem 2rem;
+	background-color: var(--btn-background);
+	color: #fff;
+	font-weight: 700;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+.link-boost-btn {
+	background-color: var(--btn-background);
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	padding: 0.7rem 2rem;
+	width: 15%;
+	cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+	.url-shorten {
+		flex-direction: column;
+		box-sizing: border-box;
+	}
+	.url-shorten input {
+		margin: 0;
+		width: 80%;
+		margin: 1rem auto;
+	}
+	.url-shorten button {
+		width: 86%;
+		margin: 1rem auto;
+	}
+
+	.advanced-statistics-info {
+		width: 80%;
+		margin: auto;
+	}
+	.advanced-statistics-title {
+		font-size: 1.7rem;
+	}
+	.advanced-statistics-para {
+		width: 100%;
+	}
+	.chart {
+		flex-direction: column;
+		align-items: center;
+	}
+	.chart-item {
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+	.link-boost-btn {
+		margin: 2rem auto;
+		width: 80%;
+	}
+}
