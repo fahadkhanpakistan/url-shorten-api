@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/url-shorten-api/static/css/main.66470ddb.chunk.css",
+    "main.js": "/url-shorten-api/static/js/main.946dd494.chunk.js",
+    "main.js.map": "/url-shorten-api/static/js/main.946dd494.chunk.js.map",
+    "runtime-main.js": "/url-shorten-api/static/js/runtime-main.95653525.js",
+    "runtime-main.js.map": "/url-shorten-api/static/js/runtime-main.95653525.js.map",
+    "static/js/2.f0db4e7a.chunk.js": "/url-shorten-api/static/js/2.f0db4e7a.chunk.js",
+    "static/js/2.f0db4e7a.chunk.js.map": "/url-shorten-api/static/js/2.f0db4e7a.chunk.js.map",
+    "index.html": "/url-shorten-api/index.html",
+    "static/css/main.66470ddb.chunk.css.map": "/url-shorten-api/static/css/main.66470ddb.chunk.css.map",
+    "static/js/2.f0db4e7a.chunk.js.LICENSE.txt": "/url-shorten-api/static/js/2.f0db4e7a.chunk.js.LICENSE.txt",
+    "static/media/StatisticsPage.css": "/url-shorten-api/static/media/bg-boost-desktop.772154c9.svg",
+    "static/media/icon-brand-recognition.c349d3b6.svg": "/url-shorten-api/static/media/icon-brand-recognition.c349d3b6.svg",
+    "static/media/icon-detailed-records.265c8aea.svg": "/url-shorten-api/static/media/icon-detailed-records.265c8aea.svg",
+    "static/media/icon-fully-customizable.a1532a74.svg": "/url-shorten-api/static/media/icon-fully-customizable.a1532a74.svg",
+    "static/media/illustration-working.c9b5ef54.svg": "/url-shorten-api/static/media/illustration-working.c9b5ef54.svg",
+    "static/media/logo.83464303.svg": "/url-shorten-api/static/media/logo.83464303.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95653525.js",
+    "static/js/2.f0db4e7a.chunk.js",
+    "static/css/main.66470ddb.chunk.css",
+    "static/js/main.946dd494.chunk.js"
+  ]
+}
